@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Battleship Game!</title>
+    <link rel="stylesheet" href="../assets/index.css">
+    <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="screen">
+        <h1>BATTLESHİP GAME</h1>
+        <div id="message"></div>
+        <div id="menu">
+            <li>
+                <a href="#"><button class="button">Start Game</button></a>
+                <ul>
+                    <label for="level1"><input type="radio" name="radio" id="level1" class="radioButton" onclick="displayRadioValue(this.value)" value="60">Easy Level</label>
+                    <label for="level2"><input type="radio" name="radio" id="level2" class="radioButton" onclick="displayRadioValue(this.value)" value="45">Intermediate Level</label>
+                    <label for="level3"><input type="radio" name="radio" id="level3" class="radioButton" onclick="displayRadioValue(this.value)" value="30">Hard Level</label>
+                </ul>
+                <a href="#"><button class="button" onclick="document.location.reload(true)">Restart</button></a>
+            </li>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>  
+        <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script src="../assets/index.js"></script>      
+    </div>
+</body>
+
+</html>

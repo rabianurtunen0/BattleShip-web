@@ -1,0 +1,145 @@
+        body{
+            background-image: url(/templates/img/battleship.jpg);
+            background-repeat:no-repeat;
+            background-size: 100% 110%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(1px);
+            margin: 0;
+        }
+        div#screen {
+            position: relative;
+        }
+        h1{
+            margin: 0 auto; 
+            position: relative;
+            color: lavender;
+            font-style:italic;
+            font-weight:initial;
+            padding: 32px;
+            padding-right: 320px;
+            text-align: center;
+        }
+        table{
+            margin: 0 auto;
+            padding: 2px;
+            align-content: center; 
+        }
+        th, td {
+            background-color: rgba(255,255,255,0.5);
+            width: 50px;
+            height: 50px;
+            font-style: italic;
+            border-radius: 5px;
+        }
+        td:hover{
+            background-color:  rgba(173, 50, 50, 0.3);
+        }
+        button#buton{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:transparent;
+            height: 50px;
+            width: 50px;
+            border: none;
+            border-radius: 5px;
+        }
+        img {
+            width: 30px;
+            border-style: none;
+        }
+        #menu {
+            position: relative;
+            text-align: center;
+            margin: 0;
+            transform: translate(220%, -240%);
+            width: 175px;
+            height: 25px;
+            background-color: rgba(173, 50, 50, 0.3);
+            padding: 10px;
+            border-radius: 18px;
+            box-shadow: 1px 1px lavender;
+            display: inline-block;
+            list-style: none;
+        }
+        #menu .button {
+            position: relative;
+            width: 85px;
+            height: 25px;
+            font-style: italic;
+            font-size: 13px;
+            background-color:lavender;
+            border-radius: 18px;
+            display: inline-block;   
+        }
+        #menu li {
+            margin: 0 auto;
+            padding: 0 0 10px 0;
+            position: relative;
+        }
+        #menu li:hover > ul {
+            display: block;
+        }
+        #menu ul {
+            position: absolute;
+            width: 185px; 
+            border-radius: 18px;  
+            background-color: rgba(255,255,255,0.2);
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            top: 35px;          
+            display: none; 
+        } 
+        label{
+            height: 25px;
+            color:black;
+            text-align: center;
+            font-style: italic; 
+            width: 100%; 
+            display: block;
+        } 
+        #menu:after {
+            display: block;
+        }  
+        #message{
+            width: 670px;
+            height: 30px;
+            text-align: center;
+            color:rgb(213, 0, 0);
+            font-style:italic;
+            font-size: 150%; 
+        }
+        .overlay{
+            position: fixed;
+            inset: 0;
+            background-color: #0000005e;
+            z-index: 50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }  
+        .dialog{
+            width: 450px;
+            height: 100px;
+            background-color: rgba(255, 255, 255, 0.7);
+            font-style: italic;
+            font-size: 40px;
+            text-align: center;
+            border-radius: 22px; 
+            display: flex;            
+            justify-content: center;            
+            align-items: center;
+        }
+        .btn {
+            position: absolute;
+            transform: translate(0%, 350%);
+            width: 175px;
+            height: 25px;
+            font-style: italic;
+            font-size: 13px;
+            background-color:rgba(255,255,255,0.7);
+            border-radius: 18px;
+        }
