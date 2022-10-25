@@ -92,7 +92,7 @@ for (let i = 0; i < game.boardSize; i++) {
 }
 document.write("</table>");
 }
-
+/*
 function position(icon, x, y) {
     console.log("Coordinates:", x, y);
     var isMouseDown = false;
@@ -169,7 +169,7 @@ function position(icon, x, y) {
   }
   position()
 
-/*
+*/
 
 function position(icon, x, y) {
     console.log("Coordinates:", x, y);
@@ -347,4 +347,3 @@ function position(icon, x, y) {
 }
 position()
  
-*/
