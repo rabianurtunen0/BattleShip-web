@@ -46,10 +46,6 @@
             border: none;
             border-radius: 5px;
         }
-        img {
-            width: 30px;
-            border-style: none;
-        }
         #menu {
             position: relative;
             text-align: center;
@@ -93,6 +89,9 @@
             top: 35px;          
             display: none; 
         } 
+        #menu:after {
+            display: block;
+        }
         label{
             height: 25px;
             color:black;
@@ -100,9 +99,18 @@
             font-style: italic; 
             width: 100%; 
             display: block;
-        } 
-        #menu:after {
-            display: block;
+        }
+        #message{
+            width: 670px;
+            height: 30px;
+            text-align: center;
+            color:rgb(213, 0, 0);
+            font-style:italic;
+            font-size: 150%; 
+        }
+        img {
+            width: 30px;
+            border-style: none;
         }  
         #message{
             width: 670px;
